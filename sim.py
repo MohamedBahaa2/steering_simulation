@@ -9,7 +9,7 @@ clock = pygame.time.Clock()
 
 # Car dimensions
 TW = 1.2  # meters (width of the car)
-WB = 1.7  # meters (length of the car)
+WB = 2.0  # meters (length of the car)
 PIXELS_PER_METER = 100  # Scale factor for conversion
 
 class SteeringSystem:
