@@ -8,8 +8,8 @@ screen = pygame.display.set_mode((screen_width, screen_height), pygame.RESIZABLE
 clock = pygame.time.Clock()
 
 # Car dimensions
-TW = 1.2  # meters (width of the car)
-WB = 2.0  # meters (length of the car)
+TW: int = int(input("Track Width (meter): "))  # meters (width of the car)
+WB: int = int(input("Wheel Base (meter): "))  # meters (length of the car)
 PIXELS_PER_METER = 100  # Scale factor for conversion
 
 class SteeringSystem:
